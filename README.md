@@ -1,4 +1,4 @@
-## Elasticsearch code examples for Microsoft Agent Framework
+# Elasticsearch code examples for Microsoft Agent Framework
 
 This repository contains some examples in Python and .NET for using the
 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) with Elasticsearch.
@@ -6,13 +6,13 @@ This repository contains some examples in Python and .NET for using the
 This repository is part of the article [Insert the title]() published in the
 Elasticsearch Labs website by [Elastic](https://www.elastic.co/).
 
-# Microsoft Agent Framework
+## Microsoft Agent Framework
 
 Microsof Agetn Framework is a comprehensive multi-language framework for building, orchestrating, and deploying AI agents with support for both .NET and Python implementations. This framework provides everything from simple chat agents to complex multi-agent workflows with graph-based orchestration.
 
 For more information you can read this [Microsoft announcement](https://azure.microsoft.com/en-us/blog/introducing-microsoft-agent-framework/).
 
-# Run Elasticsearch
+## Run Elasticsearch
 
 To execute the examples reported in this repository you need to have an
 instance of [Elasticsearch](https://www.elastic.co/elasticsearch) running. You can register for a free trial on
@@ -26,7 +26,7 @@ curl -fsSL https://elastic.co/start-local | sh
 
 This will install Elasticsearch and [Kibana](https://www.elastic.co/kibana) on macOS, Linux and Windows using WSDL.
 
-# Use the sample data in Kibana
+## Use the sample data in Kibana
 
 The examples reported in this repository use a sample data provided by Kibana.
 You need to import this sample data using the following procedure:
@@ -47,7 +47,7 @@ You need to import this sample data using the following procedure:
 
 The ecommerce data will be stored in an index called `kibana_sample_data_ecommerce` containing about 4,675 orders.
 
-# Configure Azure AI
+## Configure Azure AI
 
 In the examples, We used Azure OpenAI. You need to configure a `.env`
 file containing the following environmental variables:
@@ -68,7 +68,7 @@ you can read the endpoint and api key from the `.env` file of the folder install
 
 For Azure OpenAI you can read the value settings in the Azure portal.
 
-# Python examples
+## Python examples
 
 To install the Python examples, you can create and activate a virtual
 environment ([venv](https://docs.python.org/3/library/venv.html)) in the `python` folder.
@@ -97,8 +97,8 @@ python simple_agent_tools.py
 This example build an agent that can interact with Elasticsearch using some tools.
 The tools are implemented in the [python/elasticsearch_tools.py](/python/elasticsearch_tools.py) file.
 
-# .NET examples
+## .NET examples
 
-# License
+## License
 
 This software is licensed under the [Apache License 2.0](./LICENSE)
