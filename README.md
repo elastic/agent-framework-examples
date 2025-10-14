@@ -99,6 +99,15 @@ The tools are implemented in the [python/elasticsearch_tools.py](/python/elastic
 
 ## .NET examples
 
+To run the .NET examples, simply navigate to the directory of a specific example and start the program:
+
+```bash
+cd dotnet/{example name}
+dotnet run
+```
+
+Please ensure that you set the necessary environment variables according to your setup.
+
 ## License
 
 This software is licensed under the [Apache License 2.0](./LICENSE)
