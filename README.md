@@ -106,7 +106,7 @@ cd dotnet/{example name}
 dotnet run
 ```
 
-Please ensure that you set the necessary environment variables according to your environment.
+Please ensure that you set the necessary environment variables according to your setup.
 
 ## License
 
