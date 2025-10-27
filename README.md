@@ -3,8 +3,8 @@
 This repository contains some examples in Python and .NET for using the
 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) with Elasticsearch.
 
-This repository is part of the article [Insert the title]() published in the
-Elasticsearch Labs website by [Elastic](https://www.elastic.co/).
+This repository is part of the article [Building agentic applications with Elasticsearch and Microsoft’s Agent Framework](https://www.elastic.co/search-labs/blog/agentic-applications-elasticsearch-microsoft-agent-framework)
+published in the Elastic search labs website by [Elastic](https://www.elastic.co/).
 
 ## Microsoft Agent Framework
 
